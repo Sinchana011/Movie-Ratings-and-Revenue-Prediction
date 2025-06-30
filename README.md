@@ -13,17 +13,13 @@ Dataset:
 This project requires the TMDB 5000 Movie Dataset from Kaggle.
 
 The script will run through all the steps and print the following to the console:
-Data loading and cleaning progress.
 
-Model training status.
-
-Evaluation Metrics (RMSE, MAE, R-squared) for both revenue and rating predictions.
-
-Feature importances, showing which features were most influential for each prediction.
+1. Data loading and cleaning progress.
+2. Model training status.
+3. Evaluation Metrics (RMSE, MAE, R-squared) for both revenue and rating predictions.
+4. Feature importances, showing which features were most influential for each prediction.
 
 Finally, it will display several plots to visualize the model's performance, including:
-Actual vs. Predicted Scatter Plots for both revenue and rating.
-
-Residual Plots to analyze prediction errors.
-
-Feature Importance Bar Charts to compare the influence of each feature.
+1. Actual vs. Predicted Scatter Plots for both revenue and rating.
+2. Residual Plots to analyze prediction errors.
+3. Feature Importance Bar Charts to compare the influence of each feature.
